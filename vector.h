@@ -48,8 +48,6 @@ public:
 
     bool empty();
 
-    void erase(T &element);
-
     void swap(vector<T> &v);
 };
 
