@@ -9,6 +9,8 @@ public:
 //    ~a() { std::cout << "delete " << _a << std::endl; };
 };
 
+using rudzyansky::vector;
+
 int main() {
     vector<a> vec;
     vec.push_back(a(10));
